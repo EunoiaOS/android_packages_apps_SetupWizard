@@ -4,7 +4,7 @@
 //
 
 android_app {
-    name: "LineageSetupWizard",
+    name: "EunoiaSetupWizard",
 
     srcs: ["src/**/*.java"],
 
@@ -25,18 +25,18 @@ android_app {
         "setupcompat",
         "setupdesign",
         "SystemUISharedLib",
-        "org.lineageos.platform.internal",
+        "com.eunoiaos.platform.internal",
     ],
 
     libs: ["telephony-common"],
 
-    required: ["privapp_whitelist_org.lineageos.setupwizard"],
+    required: ["privapp_whitelist_com.eunoiaos.setupwizard"],
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.lineageos.setupwizard",
+    name: "privapp_whitelist_com.eunoiaos.setupwizard",
     system_ext_specific: true,
-    src: "privapp_whitelist_org.lineageos.setupwizard.xml",
+    src: "privapp_whitelist_com.eunoiaos.setupwizard.xml",
     sub_dir: "permissions",
     filename_from_src: true,
 }

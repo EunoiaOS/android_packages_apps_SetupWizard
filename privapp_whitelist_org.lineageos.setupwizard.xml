@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <permissions>
-    <privapp-permissions package="org.lineageos.setupwizard">
+    <privapp-permissions package="com.eunoiaos.setupwizard">
         <permission name="android.permission.BACKUP" />
         <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
         <permission name="android.permission.CHANGE_CONFIGURATION" />
